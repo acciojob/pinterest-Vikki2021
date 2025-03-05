@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.data {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	width: 90%;
+	height: 60%;
+	object-fit: cover;
+}
+
+button {
+	font-size: 10px;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border-radius: 5px;
+}
